@@ -1,0 +1,7 @@
+Scenario1: Get https://testapi.io/api/ottplatform/media  HTTP code should be 200 and  codesVerify the response HTTP status code for rest.
+Scenario2: When send a request key is "type"  and value is "music_track" should bring only "music track"
+Scenario3: When send a request id  and value is "p002gdsj" should only bring those value(Verify the Field Type,Verify the Mandatory Fields)
+Scenario4: Write POST json request (e.g. To update id )
+Scenario5: File Upload Testcases
+Scenario6: Keys verification. If we have JSON, XML APIs we should verify it’s that all the keys are coming.
+Scenario7: Valid Response headers & Negative Testcases response
